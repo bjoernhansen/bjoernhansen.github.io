@@ -31,7 +31,7 @@ h1, h3 {
 }
 
 img {
-	border-radius: 100%;
+	border-radius: 10%;
 }
 
 p {
@@ -184,7 +184,6 @@ li {
 
 .transparent-picture {
 	opacity: 0.35;
-	border: 3px dotted red;
 	width: 225px;
 }
 
@@ -282,9 +281,3 @@ footer p {
 	font-weight: 100;
 	font-style: italic; 
 }
-
-/*  display: flex;
-   flex-wrap: wrap; 
-  justify-content: center; display: flex;
-   flex-wrap: wrap; 
-  justify-content: center;*/
