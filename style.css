@@ -1,0 +1,290 @@
+* {
+	box-sizing: border-box; /* content-box is default*/
+	color:#D2D2D2;
+}
+
+body {
+	background-color:#000000;
+	font-size:150%;
+	background-image: url("https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2017/08/31191636/potw1037a-800x533.jpg");
+}
+
+a {
+	text-decoration:none; 
+	font-weight:bold; 
+}
+
+a:link, a:visited { 	
+	color:#ffffD2; 
+}
+			
+a:hover, a:focus { 	
+	background-color:#444;
+}
+
+a:active { 	
+	background-color:#000;
+}
+
+h1, h3 {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+img {
+	border-radius: 100%;
+}
+
+p {
+	line-height: 1.7;
+}
+
+div {
+	border: 3px solid white;
+	padding: 0px 50px;
+	margin: 30px auto;
+	/*min-width: 1050px;*/
+	max-width: 1400px;	
+}
+
+/* Table */
+
+table {
+  margin: 15px auto;
+  font-size: 20px;
+  width: 95%;
+}
+
+th {
+  background: rgb(240, 230, 180);
+  color: black;   
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: rgb(45, 45, 45);
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+li {
+  font-weight: bold;
+}
+
+
+
+.background {
+	background: black;
+}
+
+.Phoenix {
+	color: rgb(110, 100, 45);   
+}
+
+.Phoenix-bg {
+	background: rgb(110, 100, 45);   
+}
+
+.Roch {
+	color: rgb(120,  45, 130);   
+}
+
+.Roch-bg {
+	background: rgb(120,  45, 130);   
+}
+
+.Orochi {
+	color: rgb(180, 80, 0);  
+}
+
+.Orochi-bg {
+	background: rgb(180, 80, 0);  
+}
+
+.Kamaitachi {
+	color: rgb(150,  30, 30);   
+}
+
+.Kamaitachi-bg {
+	background: rgb(150,  30, 30);   
+}
+
+.Pegasus {
+	color: rgb(0, 125, 125);   
+}
+
+.Pegasus-bg {
+	background: rgb(0, 125, 125);   
+}
+
+.Helios {
+	color: rgb(225, 225, 225);   
+}
+
+.Helios-bg {
+	background: rgb(225, 225, 225);   
+}
+
+.very-cheap {
+	color: rgb(130, 255, 130);   
+}
+
+.cheap {
+	color: rgb(210, 255, 180);   
+}
+
+.medium {
+	color: rgb(255, 210, 0);   
+}
+
+.expensive {
+	color: rgb(255, 165, 120);   
+}
+
+.extortionate {
+	color: rgb(255, 115, 105);  
+}
+
+.image-fight-scene {
+  background-image: url("./Bilder/HelicopterDefence1.2.PNG");
+  margin-top: 125px;
+}
+
+.image-stars, .image-fight-scene {
+  background-size: cover;
+  background-position: center;
+}
+
+.image-stars {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Stars_01_%28MK%29.jpg");
+  position: relative;
+  max-width: 100%;	
+  width: 100%;
+  top: 75%;
+  left: 0;
+}
+
+.heli {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Stars_01_%28MK%29.jpg");
+  position: fixed;
+  top: 25%;
+  width: 25%;
+}
+
+
+.align-right {
+	text-align: center;
+}
+
+.transparent-picture {
+	opacity: 0.35;
+	border: 3px dotted red;
+	width: 225px;
+}
+
+#heli-list {
+	width: 35%;
+}
+
+.table-div {
+	overflow: scroll;
+}
+
+.container {
+  display: grid;
+    
+  grid-template: 0.25fr 0.25fr 0.25fr 0.25fr / 1fr 2fr;
+  grid-template-areas: "uppertop uppertop"
+    				   "left lowertop"
+    				   "left right"								 
+    				   "bottom right";
+  justify-items: center;
+  height: 1200px;
+  align-content: space-between;
+
+}
+
+.box {
+	border: 3px solid white;
+	border-radius: 14px;  
+	padding: 50px 50px;
+	margin: 30px 30px;
+}
+
+.box:hover {
+  background: rgb(50, 50, 50);
+}
+
+.box p {
+	font-family: Helvetica;
+	font-weight: bold;
+	color: hsl(60, 50%, 50%);
+	word-spacing: 0.5em;
+	letter-spacing: 0.05em;
+}
+
+.box a {
+  background: red;
+  color: white;
+  border: 1px solid white;
+  position: relative;
+
+  border-radius: 9px;  
+  padding: 14px;  
+  margin: 0px 10px;  
+}
+
+.box a:hover {
+  background: white;
+  color: red;
+  border: 1px solid red;
+}
+
+.box a:active {
+  top: 2px;
+}
+
+
+.uppertop {
+  grid-area: uppertop;
+}
+
+.lowertop {  
+  grid-area: lowertop;
+}
+
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+}
+
+.bottom {
+  grid-area: bottom;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+	
+footer p {
+	font-weight: 100;
+	font-style: italic; 
+}
+
+/*  display: flex;
+   flex-wrap: wrap; 
+  justify-content: center; display: flex;
+   flex-wrap: wrap; 
+  justify-content: center;*/
